@@ -1,7 +1,7 @@
 import { createApp } from "vue";
-import Hello from "./component/Hello.vue";
+import NavBar from "./component/NavBar.vue";
 
 const app = createApp({})
-app.component('HelloWorld', Hello)
+app.component('NavBar', NavBar)
 
 app.mount('#app')
