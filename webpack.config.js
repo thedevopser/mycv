@@ -80,6 +80,10 @@ Encore
         options.liveReload = true;
         options.allowedHosts = 'all';
     })
+   .copyFiles({
+       from: './assets/images',
+       to: 'images/[path][name].[ext]',
+    })
 ;
 
 module.exports = Encore.getWebpackConfig();
